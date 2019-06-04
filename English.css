@@ -1,0 +1,166 @@
+
+
+html{
+    height:100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:white;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+}
+
+body *{
+    font-family: serif;
+} 
+
+
+/* 導覽區與超大照片區內容*/
+body #section1{
+    background-image:url(https://i.imgur.com/2weMoZX.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 1100px;
+    max-width: auto;
+}
+#section1_text{
+    position:relative;
+    margin:0px auto;
+    color:antiquewhite;
+    text-align:center;
+    top:20px;
+}
+
+#section1_text h1{
+    background-color:antiquewhite;
+    position:relative;
+    margin:0px auto;
+    border-radius: 10px;
+    color:white;
+    width:500px;
+    height:12s0px;
+    font-size:100px;
+}
+
+#section1_text p{
+    font-size:25px;
+}
+
+#section1_text i:hover{
+    color:gold;
+}
+
+
+/* 英文測試區title 部分*/
+
+.container-fluid{
+    height:950px;
+    position:relative;
+}
+
+#title .data{
+    position:relative;
+    text-align:center;
+    font-size: 20px;
+    border-style:groove;
+    top:30px;
+    border-radius: 15px;
+}
+
+#title .data p{
+    position:relative;
+    margin:0px auto;
+}
+
+
+
+
+
+/* 英文測試區 內容 部分*/
+
+.content .col-lg-2{
+    text-align:center;
+    top:30px;
+    height:55px;
+    width:auto;
+    border-radius: 30px;
+}
+
+
+.content .col-lg-2 input{
+    position:relative;
+    margin:auto;
+    top:10px;
+    border-style:groove;
+    border-radius:10px;
+    text-align:center;
+    font-size: 25px;
+}
+
+.col-lg-2 button{
+    position:relative;
+    margin:auto;
+    top:20px;
+    border-style:groove;
+    border-radius:10px;
+    text-align:center;
+    margin:0px auto;    
+}
+
+
+
+
+
+/*  Section5 Desgin 聯絡資訊背景 */
+body #section5{
+    background-image:url(https://i.imgur.com/WiHcgRV.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 400px;;
+    max-width: 100%;
+}
+
+#section5_text{
+    position:relative;
+    margin:0px auto;
+    color:antiquewhite;
+    text-align:center;
+    top:25%;
+    word-spacing:10px;
+}
+
+#section5_icon{
+    position:relative;
+    margin:0px auto;
+    color:antiquewhite;
+    text-align:center;
+    top:25%;
+    word-spacing:20px;
+}
+
+
+#foorter{
+    background-color:black;
+    height:100px;
+    max-width: 100%;
+    position:relative;
+    margin:0px auto;
+    color:antiquewhite;
+    text-align:center;
+}
+
+#copyright{
+    position:relative;
+    top:40%;
+}
+
+#section5_icon *:hover{
+    color:peachpuff;
+}
