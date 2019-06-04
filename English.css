@@ -25,7 +25,7 @@ body #section1{
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position: center;
-    height: 1100px;
+    height: 1000px;
     max-width: auto;
 }
 #section1_text{
@@ -36,6 +36,8 @@ body #section1{
     top:20px;
 }
 
+
+
 #section1_text h1{
     background-color:antiquewhite;
     position:relative;
@@ -43,9 +45,11 @@ body #section1{
     border-radius: 10px;
     color:white;
     width:500px;
-    height:12s0px;
+    height:120px;
     font-size:100px;
 }
+
+
 
 #section1_text p{
     font-size:25px;
@@ -59,7 +63,7 @@ body #section1{
 /* 英文測試區title 部分*/
 
 .container-fluid{
-    height:950px;
+    height:975px;
     position:relative;
 }
 
@@ -99,7 +103,7 @@ body #section1{
     border-style:groove;
     border-radius:10px;
     text-align:center;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .col-lg-2 button{

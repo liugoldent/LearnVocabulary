@@ -165,3 +165,21 @@ function getRandomNumberArray(length,max){
       
   };
 ////////////////////////////////////
+
+
+
+var width=document.body.clientWidth;
+var height=document.body.clientHeight;
+console.log(width,height);
+var video=document.getElementById("video");
+var body
+if (width<1858 && 1116<width){
+    video.style.width="1000px";
+}
+if (width<1115 && 985<width){
+    video.style.width="800px";
+    }
+if(width<984){
+    alert("Your screen is too small. Don't use this app");
+    document.location.href='https://liugoldent.github.io/LgtProfile/profile.html';
+}
